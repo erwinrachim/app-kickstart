@@ -1,0 +1,9 @@
+        <script>
+            function base_url(path) {
+                return {{ function('base_url')|json_encode|raw }} + path.replace(/^\//g, '');
+            }
+            function site_url(path) {
+                return {{ function('site_url')|json_encode|raw }} + path.replace(/^\//g, '');
+            }
+        </script>
+        

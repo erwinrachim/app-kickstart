@@ -1,1 +1,16 @@
-<h1>It Works!</h1>
+{% extends "templates/base.twig" %}
+
+{% block header %}
+    <style>
+        h1{
+            color: blue;
+        }
+    </style>
+{% endblock %}
+
+{% block content %}
+    <h1>It Works!</h1>
+{% endblock %}
+
+{% block footer %}
+{% endblock %}

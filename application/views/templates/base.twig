@@ -1,0 +1,13 @@
+<!doctype html>
+<html>
+    <head>
+        {% include 'templates/_header.twig' %}
+        {{ block('header') }}
+    </head>
+    <body>
+        {{ block('content') }}
+
+        {% include 'templates/_footer.twig' %}
+        {{ block('footer') }}
+    </body>
+</html>

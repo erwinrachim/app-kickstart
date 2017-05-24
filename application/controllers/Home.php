@@ -7,7 +7,10 @@ class Home extends CI_Controller
 
     public function index()
     {
-        $this->load->render('home');
+        $data = array(
+            'page_title' => 'Home'
+        );
+        $this->load->render('home', $data);
     }
 
 }

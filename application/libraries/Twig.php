@@ -28,7 +28,7 @@ class Twig
         $this->twig->addFunction(new Twig_SimpleFunction('fn', array($this, 'exec_function')));
     }
 
-    private function exec_function($function_name)
+    public function exec_function($function_name)
     {
         $args = func_get_args();
         array_shift($args);
