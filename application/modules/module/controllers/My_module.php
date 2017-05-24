@@ -7,7 +7,7 @@ class My_module extends CI_Controller
 
     public function index()
     {
-        $this->load->view('my_module');
+        $this->load->render('my_module');
     }
 
 }
