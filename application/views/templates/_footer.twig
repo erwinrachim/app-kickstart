@@ -6,4 +6,12 @@
                 return {{ function('site_url')|json_encode|raw }} + path.replace(/^\//g, '');
             }
         </script>
+        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+        <script src="{{ function('base_url','assets/includes/jquery/dist/jquery.min.js') }}"></script>
+        <!-- Include all compiled plugins (below), or include individual files as needed -->
+        <script src="{{ function('base_url','assets/includes/moment/min/moment.min.js') }}"></script>
+        <script src="{{ function('base_url','assets/includes/bootstrap/assets/javascripts/bootstrap.min.js') }}"></script>
+        <script src="{{ function('base_url','assets/includes/bootstrap-datetimepicker/build/js/bootstrap-datetimepicker.min.js') }}"></script>
+        <!-- Override all compiled plugins (below) -->
+        <script src="{{ function('base_url','assets/js/functions.min.js') }}"></script>
         
