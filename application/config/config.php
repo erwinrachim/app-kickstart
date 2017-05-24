@@ -522,3 +522,15 @@ $config['rewrite_short_tags'] = FALSE;
   | Array:		array('10.0.1.200', '192.168.5.0/24')
  */
 $config['proxy_ips'] = '';
+
+/*
+  |--------------------------------------------------------------------------
+  | Modular Extensions - HMVC
+  |--------------------------------------------------------------------------
+  |
+  | https://bitbucket.org/wiredesignz/codeigniter-modular-extensions-hmvc
+  |
+ */
+$config['modules_locations'] = array(
+    APPPATH . 'modules/' => '../modules/',
+);
