@@ -5,7 +5,7 @@
     "fzldn <faizaldwinugraha@gmail.com>"
   ],
   "description": "Kickstart the damn app",
-  "main": "index.php",
+  "main": "assets/js/function.js",
   "license": "MIT",
   "private": true,
   "dependencies": {

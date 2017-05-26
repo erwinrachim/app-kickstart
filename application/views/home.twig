@@ -1,11 +1,7 @@
 {% extends "templates/base.twig" %}
 
 {% block header %}
-    <style>
-        h1{
-            color: red;
-        }
-    </style>
+    <link href="{{ base_url('assets/css/home.min.css') }}" rel="stylesheet">
 {% endblock %}
 
 {% block content %}
@@ -13,4 +9,5 @@
 {% endblock %}
 
 {% block footer %}
+    <script src="{{ base_url('assets/js/home.min.js') }}"></script>
 {% endblock %}

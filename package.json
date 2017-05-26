@@ -1,0 +1,26 @@
+{
+  "name": "app-kickstart",
+  "version": "1.0.0",
+  "description": "Kickstart the damn app",
+  "main": "assets/js/function.js",
+  "scripts": {
+    "test": "APP.init()"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fzldn/app-kickstart.git"
+  },
+  "author": "fzldn <faizaldwinugraha@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fzldn/app-kickstart/issues"
+  },
+  "homepage": "https://github.com/fzldn/app-kickstart#readme",
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib-clean": "^1.1.0",
+    "grunt-contrib-sass": "^1.0.0",
+    "grunt-contrib-uglify": "^3.0.1",
+    "grunt-contrib-watch": "^1.0.0"
+  }
+}

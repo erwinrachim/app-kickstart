@@ -26,6 +26,8 @@ class Twig
     {
         $this->twig->addFunction(new Twig_SimpleFunction('function', array($this, 'exec_function')));
         $this->twig->addFunction(new Twig_SimpleFunction('fn', array($this, 'exec_function')));
+        $this->twig->addFunction(new Twig_SimpleFunction('base_url', 'base_url'));
+        $this->twig->addFunction(new Twig_SimpleFunction('site_url', 'site_url'));
     }
 
     public function exec_function($function_name)

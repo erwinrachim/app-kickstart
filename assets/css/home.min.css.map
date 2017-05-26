@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,EAAE,CACE,KAAK,CAAE,GAAG",
+"sources": ["../scss/app/home.scss"],
+"names": [],
+"file": "home.min.css"
+}
