@@ -14,6 +14,7 @@ Kickstart the damn app
 ## PHP Dependencies
 * [CodeIgniter 3.1.4](http://codeigniter.com)
 * [CodeIgniter Modular Extensions - HMVC 2017-04-24](https://bitbucket.org/wiredesignz/codeigniter-modular-extensions-hmvc)
+* [CodeIgniter Base Model](https://github.com/jamierumbelow/codeigniter-base-model#readme)
 * [Twig 1.33](https://twig.sensiolabs.org/)
 
 ## CSS & JS Dependencies
