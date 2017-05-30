@@ -8,7 +8,10 @@ class Twig
     public function render($path, $filename, $vars = array(), $return = false)
     {
         $loader = new Twig_Loader_Filesystem($path);
-        $this->twig = new Twig_Environment($loader);
+        $this->twig = new Twig_Environment($loader, array(
+            'debug' => false,
+        ));
+        $this->twig->addExtension(new Twig_Extension_Debug());
 
         // extend twig function
         $this->extendFunctions();
